@@ -1,5 +1,5 @@
-abc.exe:main.o bi2.o reverse.o
-  gcc -o abc.exe main.o bi2.o reverse.o
+abc.exe:main.o big2.o reverse.o
+  gcc -o abc.exe main.o big2.o reverse.o
 main.o:main.c
   gcc -c main.c
 big2.o:big2.c
